@@ -1,0 +1,186 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1260px; } }
+@media (max-width: 1199px) {
+  /*Index*/
+  header.header-index {
+    padding-top: 125px; }
+
+  /*Video Product*/
+  .video-production .video-demo iframe, .show-rells .video-demo {
+    min-height: 340px; } }
+@media (max-width: 991px) {
+  /*Index*/
+  header.header-index {
+    padding-top: 140px; }
+
+  header.header-index .link-web {
+    font-size: 10px;
+    max-width: 200px;
+    padding: 8px 0; }
+
+  /*Video Production*/
+  header.header .menu {
+    display: none; }
+
+  .btn-bars {
+    display: block;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 999; }
+    .btn-bars i {
+      font-size: 22px; }
+
+  /*.menu-c3{
+  	position: relative;
+  	padding-left: 13px;
+  	&:before{
+  		position: absolute;
+  		content: '+';
+  		left: 0;
+  		width: 10px;
+  		height: 20px;
+  	}
+  }*/
+  .menu-mobile {
+    display: block;
+    position: fixed;
+    left: 100%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 998;
+    background: #242323;
+    padding-left: 20px;
+    line-height: 2.5;
+    font-size: 18px;
+    font-family: 'Mon';
+    overflow: auto;
+    padding: 10px 20px;
+    transition: .3s; }
+    .menu-mobile.open {
+      left: 0; }
+    .menu-mobile ul li {
+      position: relative;
+      padding-left: 15px; }
+      .menu-mobile ul li.color {
+        color: #9c9c9c; }
+      .menu-mobile ul li a {
+        display: block; }
+      .menu-mobile ul li span {
+        position: absolute;
+        cursor: pointer;
+        right: 30px;
+        width: 45px;
+        height: 44px;
+        text-align: center;
+        top: 0;
+        background: rgba(105, 97, 97, 0.21);
+        color: #fff; }
+      .menu-mobile ul li ul {
+        display: none; }
+    .menu-mobile .info-contact {
+      color: #9c9c9c;
+      line-height: 1.5;
+      font-size: 20px; }
+
+  .email {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #242323;
+    font-family: 'Mon';
+    background: #ebebeb;
+    text-align: center;
+    font-size: 10px;
+    transition: .5s;
+    z-index: 997; }
+    .email a {
+      display: inline-block;
+      padding: 15px 30px; }
+      .email a i {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 14px; }
+    .email.hide {
+      bottom: -100%; }
+
+  .video-production, .show-rells {
+    padding: 60px 0; }
+
+  .video-production .video-demo iframe, .show-rells .video-demo {
+    min-height: 300px; }
+
+  /*Client List*/
+  .client-list .slider-client-list h2 {
+    font-size: 18px; } }
+@media (max-width: 767px) {
+  /*Index*/
+  header.header-index {
+    padding-top: 130px; }
+
+  /*Video Production*/
+  .video-production .video-demo iframe, .show-rells .video-demo {
+    min-height: 220px; }
+
+  /*Client List*/
+  .title {
+    padding-bottom: 30px; }
+
+  .client-list .slider-client-list {
+    margin-top: 20px; }
+
+  .client-list .slider-client-list .btn-next i, .client-list .slider-client-list .btn-prev i {
+    width: 40px;
+    height: 40px;
+    padding: 0px; }
+
+  .client-list .slider-client-list .btn-next, .client-list .slider-client-list .btn-prev {
+    top: calc(50% - 20px); } }
+@media (max-width: 575px) {
+  /*Video Production*/
+  .video-production .video-demo iframe, .show-rells .video-demo {
+    min-height: 260px; }
+
+  .show-rells .video-demo {
+    margin-top: 30px; }
+
+  /*Client List*/
+  .client-list .slider-client-list h2 {
+    font-size: 14px; }
+
+  .client-list .slider-client-list .btn-next i, .client-list .slider-client-list .btn-prev i {
+    width: 30px;
+    height: 30px; }
+
+  .client-list .slider-client-list .btn-next, .client-list .slider-client-list .btn-prev {
+    font-size: 28px; }
+
+  .client-list .slider-client-list .btn-next, .client-list .slider-client-list .btn-prev {
+    top: calc(50% - 15px); } }
+@media (max-width: 480px) {
+  /*Video Production*/
+  .video-production .video-demo iframe, .show-rells .video-demo {
+    min-height: 200px;
+    margin-top: 30px; }
+
+  .video-production, .show-rells {
+    padding: 30px 0; }
+
+  .video-production h1 {
+    padding-bottom: 20px; }
+
+  .video-production .video-demo {
+    margin-top: 30px;
+    padding-bottom: 20px; } }
+@media (max-width: 320px) {
+  /*Video Production*/
+  .video-production .video-demo iframe, .show-rells .video-demo {
+    min-height: 130px; } }
+
+/*# sourceMappingURL=media.css.map */
